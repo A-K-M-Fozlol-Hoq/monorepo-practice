@@ -1,0 +1,19 @@
+{
+  "name": "DS.E",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^8.2.2"
+  },
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "playgrounds/*"
+    ]
+  },
+  "scripts": {
+    "build":"yarn lerna run build"
+  }
+}
